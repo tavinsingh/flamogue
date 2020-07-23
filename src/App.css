@@ -36,3 +36,76 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+
+
+
+#page-body {
+  max-width: 700px;
+  margin: auto;
+  padding-top: 260px; 
+  /* Padding top that high or else cards hide behind nav bar */
+}
+
+nav {
+  border-bottom: 4px solid black;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 16px 32px;
+}
+
+nav a:hover {
+  background: black;
+  color: white;
+}
+
+.article-list-item {
+  text-decoration: none;
+  color: black;
+  padding: 16px 0 0 0;
+}
+
+.article-list-item p {
+  padding-bottom: 32px;
+  border-bottom: 2px solid black;
+}
+
+#flamouge-title {
+  color: #d54d7b; 
+  font-family: "Great Vibes", cursive; 
+  font-size: 165px; 
+  line-height: 160px; 
+  font-weight: normal; 
+  margin-bottom: 0px; 
+  margin-top: 40px; 
+  text-align: center; 
+  text-shadow: 0 1px 1px #fff;
+}
+
+#articleBox {
+  border: 3px solid rgba(0, 0, 0, 0.125)
+}
